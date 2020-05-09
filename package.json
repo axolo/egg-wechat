@@ -13,7 +13,7 @@
     "node-wechat"
   ],
   "dependencies": {
-    "@axolo/node-wechat": "^0.0.1",
+    "@axolo/node-wechat": "^0.0.4",
     "cache-manager": "^3.2.1"
   },
   "devDependencies": {
