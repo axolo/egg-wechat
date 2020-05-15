@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-wechat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "node-wechat plugin for Egg.js.",
   "eggPlugin": {
     "name": "wechat"
@@ -13,7 +13,7 @@
     "node-wechat"
   ],
   "dependencies": {
-    "@axolo/node-wechat": "^0.0.4",
+    "@axolo/node-wechat": "^0.0.5",
     "cache-manager": "^3.2.1"
   },
   "devDependencies": {
