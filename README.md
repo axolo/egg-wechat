@@ -33,7 +33,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 ```js
 const Controller = require('egg').Controller;
 
-class WechatMpController extends Controller {
+class WechatController extends Controller {
   async index() {
     const { app, ctx } = this;
     const { wechat } = app;
@@ -43,7 +43,7 @@ class WechatMpController extends Controller {
   }
 }
 
-module.exports = WechatMpController;
+module.exports = WechatController;
 ```
 
 ## Questions & Suggestions

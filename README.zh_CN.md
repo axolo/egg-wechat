@@ -32,7 +32,7 @@ exports.wechat = {};
 ```js
 const Controller = require('egg').Controller;
 
-class WechatMpController extends Controller {
+class WechatController extends Controller {
   async index() {
     const { app, ctx } = this;
     const { wechat } = app;
@@ -42,7 +42,7 @@ class WechatMpController extends Controller {
   }
 }
 
-module.exports = WechatMpController;
+module.exports = WechatController;
 ```
 
 ## 提问交流
